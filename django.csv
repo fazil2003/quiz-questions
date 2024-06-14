@@ -1,0 +1,21 @@
+question,correct,wrong1,wrong2,wrong3
+What does ORM stand for in Django?,Object-Relational Mapping,Object-Relational Model,Object-Relational Method,Object-Relational Manifest
+Which command is used to start a new Django project?,django-admin startproject,python manage.py startproject,django start,create django project
+How can you define a URL pattern in Django?,Using URL patterns in urls.py,defining-url in views.py,using-url in settings.py,setting-url in manage.py
+What is the default database used by Django?,SQLite,MySQL,PostgreSQL,MongoDB
+Which command runs the development server in Django?,python manage.py runserver,django run,server start,python django-server
+What does MTV stand for in Django architecture?,Model-Template-View,Model-View-Template,View-Template-Model,Template-Model-View
+How do you define a model in Django?,By creating a class that inherits from models.Model,By defining a function in models.py,By writing SQL in models.py,By using Django-admin
+What is the purpose of Django migrations?,To propagate changes you make to your models (adding a field, deleting a model, etc.) into your database schema,To migrate to a different server,To handle HTTP requests,To manage static files
+What is Django's built-in authentication system called?,Django.contrib.auth,Authenticator,Django.auth,Django.authenticator
+Which template language does Django use by default?,Django Template Language (DTL),HTML with embedded Python,PHP,Java Server Pages (JSP)
+In Django, what is the purpose of context processors?,To make data available to all templates across the project,To handle HTTP requests,To authenticate users,To manage static files
+What command is used to create a superuser in Django admin?,python manage.py createsuperuser,django-admin createuser,admin create user,django-admin makeadmin
+What is the primary key field in Django models by default?,id,primary_key,_id,pk
+How can you enable Django's admin interface for a model?,By registering the model in admin.py,By creating a new admin interface file,By using Django-admin commands,By adding admin=True to the model
+How does Django handle forms in views?,Through form handling classes and functions,By using HTML forms directly,By embedding forms in models,By using JavaScript for form validation
+What does the {% csrf_token %} template tag do in Django templates?,Adds a CSRF token to forms for security,Generates a random token for session management,Enables cross-site scripting protection,Allows access to session variables
+Which function is used to retrieve objects from the database in Django?,objects.get(),queryset.fetch(),db.retrieve(),model.fetch()
+What is the Django REST framework used for?,Building APIs,Handling websockets,Frontend development,Database administration
+What is the purpose of Django's settings.py file?,To configure Django settings for the project,To define URL patterns,To handle database queries,To manage static files
+How can you include another URLconf in a Django project?,By using include() in urls.py,By importing it in views.py,By using add_url() in settings.py,By defining in manage.py
